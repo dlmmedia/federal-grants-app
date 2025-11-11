@@ -1,0 +1,452 @@
+GRANTSCOPE BRAND GUIDE
+======================
+
+Last Updated: November 11, 2025 (GrantScope Redesign - Coral/Salmon Theme)
+
+COLOR PALETTE
+-------------
+
+Primary Colors (Coral/Salmon):
+- Primary: oklch(0.66 0.19 25) / Dark mode: oklch(0.70 0.19 25)
+- Primary Foreground: oklch(1 0 0) / Dark mode: oklch(0.145 0 0)
+- Hex Equivalent: ~#E97560 (Coral/Salmon)
+
+Background Colors:
+- Background: oklch(1 0 0) / Dark mode: oklch(0.145 0 0)
+- Foreground: oklch(0.145 0 0) / Dark mode: oklch(0.985 0 0)
+
+Surface Colors:
+- Card: oklch(1 0 0) / Dark mode: oklch(0.205 0 0)
+- Card Foreground: oklch(0.145 0 0) / Dark mode: oklch(0.985 0 0)
+- Popover: oklch(1 0 0) / Dark mode: oklch(0.205 0 0)
+- Popover Foreground: oklch(0.145 0 0) / Dark mode: oklch(0.985 0 0)
+
+Secondary Colors:
+- Secondary: oklch(0.97 0 0) / Dark mode: oklch(0.269 0 0)
+- Secondary Foreground: oklch(0.205 0 0) / Dark mode: oklch(0.985 0 0)
+
+Muted Colors:
+- Muted: oklch(0.97 0 0) / Dark mode: oklch(0.269 0 0)
+- Muted Foreground: oklch(0.556 0 0) / Dark mode: oklch(0.708 0 0)
+
+Accent Colors:
+- Accent: oklch(0.97 0 0) / Dark mode: oklch(0.269 0 0)
+- Accent Foreground: oklch(0.205 0 0) / Dark mode: oklch(0.985 0 0)
+
+Destructive Colors:
+- Destructive: oklch(0.577 0.245 27.325) / Dark mode: oklch(0.704 0.191 22.216)
+- Destructive Foreground: White
+
+Border & Input:
+- Border: oklch(0.922 0 0) / Dark mode: oklch(1 0 0 / 10%)
+- Input: oklch(0.922 0 0) / Dark mode: oklch(1 0 0 / 15%)
+- Ring: oklch(0.708 0 0) / Dark mode: oklch(0.556 0 0)
+
+Chart Colors:
+- Chart 1: oklch(0.646 0.222 41.116) / Dark mode: oklch(0.488 0.243 264.376)
+- Chart 2: oklch(0.6 0.118 184.704) / Dark mode: oklch(0.696 0.17 162.48)
+- Chart 3: oklch(0.398 0.07 227.392) / Dark mode: oklch(0.769 0.188 70.08)
+- Chart 4: oklch(0.828 0.189 84.429) / Dark mode: oklch(0.627 0.265 303.9)
+- Chart 5: oklch(0.769 0.188 70.08) / Dark mode: oklch(0.645 0.246 16.439)
+
+TYPOGRAPHY
+----------
+
+Font Families:
+- Sans Serif: Geist (--font-geist-sans)
+- Monospace: Geist Mono (--font-geist-mono)
+
+Font Sizes:
+- Text 4XL: 3.75rem (60px) - Hero headings
+- Text 3XL: 3rem (48px) - Page titles
+- Text 2XL: 2.25rem (36px) - Section headings
+- Text XL: 1.5rem (24px) - Card titles
+- Text LG: 1.25rem (20px) - Subheadings
+- Text Base: 1rem (16px) - Body text
+- Text SM: 0.875rem (14px) - Small text
+- Text XS: 0.75rem (12px) - Captions
+
+Font Weights:
+- Regular: 400
+- Medium: 500
+- Semibold: 600
+- Bold: 700
+
+Line Heights:
+- Tight: 1.25
+- Normal: 1.5
+- Relaxed: 1.75
+
+BUTTON STYLES
+-------------
+
+Button Variants:
+1. Default (Primary)
+   - Background: Primary
+   - Text: Primary Foreground
+   - Hover: Primary/90
+
+2. Destructive
+   - Background: Destructive
+   - Text: White
+   - Hover: Destructive/90
+
+3. Outline
+   - Background: Background
+   - Border: Border
+   - Text: Foreground
+   - Hover: Accent background
+
+4. Secondary
+   - Background: Secondary
+   - Text: Secondary Foreground
+   - Hover: Secondary/80
+
+5. Ghost
+   - Background: Transparent
+   - Text: Foreground
+   - Hover: Accent background
+
+6. Link
+   - Background: Transparent
+   - Text: Primary
+   - Underline on hover
+
+Button Sizes:
+- Default: h-9 (36px), px-4
+- Small: h-8 (32px), px-3
+- Large: h-10 (40px), px-6
+- Icon: size-9 (36px square)
+- Icon Small: size-8 (32px square)
+- Icon Large: size-10 (40px square)
+
+COMPONENT STYLES
+----------------
+
+Cards:
+- Background: Card
+- Border: Border
+- Border Radius: var(--radius) = 0.625rem (10px)
+- Shadow: Default shadow on hover
+
+Badges:
+- Default: Primary background
+- Secondary: Secondary background
+- Destructive: Destructive background
+- Outline: Border with transparent background
+
+Inputs:
+- Background: Background
+- Border: Input
+- Border Radius: var(--radius-md) = calc(var(--radius) - 2px)
+- Height: h-9 (36px)
+- Focus: Ring with Ring color
+
+Navigation:
+- Sticky header with backdrop blur
+- Background: Background/95 with backdrop-filter
+- Border bottom: Border
+
+SPACING
+-------
+
+Standard Spacing Scale:
+- 0: 0
+- 1: 0.25rem (4px)
+- 2: 0.5rem (8px)
+- 3: 0.75rem (12px)
+- 4: 1rem (16px)
+- 6: 1.5rem (24px)
+- 8: 2rem (32px)
+- 12: 3rem (48px)
+- 16: 4rem (64px)
+- 20: 5rem (80px)
+
+Container:
+- Max Width: 1280px
+- Padding: 1rem (mobile), 2rem (desktop)
+
+BORDER RADIUS
+-------------
+
+Radius Variants:
+- Small: calc(var(--radius) - 4px) = 0.225rem
+- Medium: calc(var(--radius) - 2px) = 0.425rem
+- Large: var(--radius) = 0.625rem
+- XL: calc(var(--radius) + 4px) = 1.025rem
+
+ICONS
+-----
+
+Icon Library: Lucide React
+
+Common Icon Sizes:
+- Small: h-4 w-4 (16px)
+- Default: h-5 w-5 (20px)
+- Large: h-6 w-6 (24px)
+
+Icon Colors:
+- Primary actions: Primary
+- Muted/secondary: Muted Foreground
+- Destructive actions: Destructive
+
+DARK MODE
+---------
+
+Implementation:
+- Uses next-themes for theme switching
+- System preference detection enabled
+- Manual toggle available in navigation
+- Smooth transitions between themes
+
+Theme Toggle:
+- Sun icon for light mode
+- Moon icon for dark mode
+- Dropdown with Light/Dark/System options
+
+ACCESSIBILITY
+-------------
+
+Focus States:
+- Ring: 3px ring with Ring color
+- Outline: None (using ring instead)
+
+Color Contrast:
+- All text meets WCAG AA standards
+- Interactive elements have clear focus states
+
+Keyboard Navigation:
+- All interactive elements keyboard accessible
+- Logical tab order
+- Skip links where appropriate
+
+Screen Readers:
+- Semantic HTML
+- ARIA labels on icon-only buttons
+- Descriptive link text
+
+RESPONSIVE DESIGN
+-----------------
+
+Breakpoints:
+- SM: 640px
+- MD: 768px
+- LG: 1024px
+- XL: 1280px
+- 2XL: 1536px
+
+Mobile-First Approach:
+- Base styles for mobile
+- Progressive enhancement for larger screens
+- Touch-friendly targets (min 44x44px)
+
+Grid Layouts:
+- 1 column on mobile
+- 2 columns on tablet (md:)
+- 3 columns on desktop (lg:)
+- 4 columns on large desktop (xl:)
+
+ANIMATION & TRANSITIONS
+-----------------------
+
+Transition Duration:
+- Fast: 150ms
+- Default: 300ms (cubic-bezier(0.4, 0, 0.2, 1))
+- Slow: 500ms
+
+Transition Timing:
+- Default: cubic-bezier(0.4, 0, 0.2, 1)
+- Enter: ease-out
+- Exit: ease-in
+
+Custom Animations:
+- fadeIn: Fade in with upward movement (0.6s)
+- slideIn: Slide in from left (0.6s)
+- scaleIn: Scale up from 95% (0.5s)
+
+Common Animations:
+- Hover: scale, shadow, opacity, translateY(-4px)
+- Focus: ring appearance
+- Loading: spin, pulse
+- Enter/Exit: fade, slide
+- Testimonials: Carousel with slide transitions (5s auto-rotate)
+- Logo hover: Grayscale to color transition
+- Button hover: Scale and shadow enhancement
+
+Smooth Scrolling:
+- Enabled globally with scroll-behavior: smooth
+- Anchor links animate smoothly
+
+VOICE & TONE
+------------
+
+Brand Voice:
+- Professional yet approachable
+- Clear and concise
+- Helpful and supportive
+- Trustworthy and reliable
+
+Content Guidelines:
+- Use active voice
+- Be specific and concrete
+- Avoid jargon when possible
+- Provide context and examples
+- Focus on user benefits
+
+Error Messages:
+- Clear explanation of what went wrong
+- Actionable next steps
+- Supportive tone
+
+Success Messages:
+- Confirm action completed
+- Brief and positive
+- Use checkmark icon
+
+LOGO & BRANDING
+---------------
+
+Logo:
+- Icon: "GS" in rounded square with primary background
+- Text: "GrantScope" (proper case, bold)
+- Color: Primary (Coral/Salmon)
+- Font: Bold, tracking-tight
+- Icon + text combination
+
+Logo Usage:
+- Minimum size: 120px width
+- Clear space: Equal to height of "G"
+- Always link to home page
+- Icon is 32px square (w-8 h-8)
+
+Tagline:
+"The complete grant platform"
+
+IMAGERY
+-------
+
+Image Style:
+- Professional and clean
+- High quality
+- Relevant to grant/government context
+- Diverse and inclusive
+- Large feature images with rounded corners (rounded-2xl)
+- Shadow effects for depth (shadow-2xl)
+
+Image Organization:
+- /images/backgrounds/ - Background images and patterns
+- /images/customer-logos/ - Customer organization logos
+- /images/features/ - Feature screenshots and visuals
+- /images/testimonials/ - Customer testimonial photos
+- /images/funders/ - Major funder logos
+- /images/social-media/ - Social media icons
+
+Image Effects:
+- Grayscale filter on logos (hover to reveal color)
+- Opacity transitions (60% to 100% on hover)
+- Border and shadow on important images
+- Aspect ratio maintained with Next.js Image component
+
+Placeholder Colors:
+- Use muted backgrounds
+- Skeleton loaders for loading states
+
+Icons:
+- Lucide React icon library
+- Consistent sizing
+- Simple, not overly colorful
+- Meaningful and recognizable
+
+Decorative Elements:
+- SVG underlines on key headlines (animated curves)
+- Gradient blob backgrounds (blur-3xl)
+- Play button overlays for video previews
+- Star ratings for testimonials
+
+HOMEPAGE SECTIONS
+-----------------
+
+1. Hero Section:
+   - Two-column layout (text left, video preview right)
+   - Large headline with SVG underline accent
+   - Badge with "Powered by Federal Grants Data"
+   - Primary CTA: "Try 14 days free"
+   - Scarcity message: "Only 50 free trials left this week"
+   - Gradient blob backgrounds for visual interest
+
+2. Customer Logos Section:
+   - "Trusted by 5,000+ nonprofits" messaging
+   - 5 customer logos in grid
+   - Grayscale with color on hover
+   - Border top and bottom
+
+3. "You Can Do It All" Section:
+   - Large headline with underline accent
+   - Grant lifecycle visual (large image)
+   - Centered layout with ample spacing
+
+4. Features Section (Large Format):
+   - Three major features with alternating layouts
+   - Large feature images (600x400)
+   - Headlines with SVG underline accents
+   - Descriptive paragraphs
+   - CTA buttons for each feature
+
+5. Testimonials Carousel:
+   - Auto-rotating carousel (5s intervals)
+   - Customer photos in circular frames
+   - 5-star ratings
+   - Quote, name, role, organization
+   - Navigation dots and arrow buttons
+   - Smooth slide transitions
+
+6. Funders Section:
+   - "Over $1 billion in active grants" messaging
+   - 5 major funder logos
+   - Grayscale with color on hover
+   - Border top and bottom
+
+7. CTA Section:
+   - Full-width with background image overlay
+   - Gradient overlay (primary color)
+   - Large headline with underline accent
+   - Compelling copy about impact
+   - Primary CTA button
+   - Wave pattern decoration at bottom
+
+8. Footer:
+   - 6-column grid navigation
+   - Platform, Resources, Why GrantScope, Solutions, Company, Support
+   - Social media icons (LinkedIn, Facebook, X, YouTube)
+   - Logo and copyright
+   - Data source attribution
+
+NOTES
+-----
+
+This brand guide should be updated whenever design decisions are made that affect:
+- Color palette
+- Typography
+- Component styles
+- Spacing
+- Accessibility features
+- Any other visual or UX patterns
+
+Consistency is key to a professional, polished user experience.
+
+RECENT UPDATES (November 11, 2025):
+- Changed primary color to coral/salmon (oklch(0.66 0.19 25))
+- Updated logo to "GS" icon + "GrantScope" text design in coral color
+- Redesigned navbar with Platform/Pricing/Resources dropdowns
+- Added "Log In" and "Try 14 days free" buttons to navbar
+- Updated hero section with grant tracker screenshot and play button overlay
+- Removed all cart functionality (cart page, API, and UI elements)
+- Updated CTA section with peach/pink/purple gradient background
+- Enhanced testimonials carousel with 5-star rating display and smoother transitions
+- Improved testimonial card styling with backdrop blur and better spacing
+- Updated all button colors to use new coral primary color
+- Added proper image paths for grant-lifecycle and feature screenshots
+- Implemented smooth hover effects on navigation and buttons
+- Ensured full responsive design across all breakpoints
+- Removed all references to "Instrumentl" branding
+
