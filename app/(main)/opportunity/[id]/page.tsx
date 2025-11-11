@@ -14,6 +14,7 @@ import { toast } from 'sonner';
 interface OpportunityDetail {
   id: string;
   number: string;
+  grantsgov_id?: string;
   title: string;
   agency: string;
   status: string;
