@@ -23,7 +23,6 @@ export async function POST(request: NextRequest) {
     
     // First, try to fetch from local database
     try {
-      let query = sql`SELECT * FROM opportunities WHERE 1=1`;
       const conditions: any[] = [];
 
       // Build the actual query with conditions

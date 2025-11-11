@@ -33,6 +33,7 @@ export default function GeneratePage() {
     if (grantId) {
       fetchGrantInfo();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [grantId]);
 
   const fetchGrantInfo = async () => {

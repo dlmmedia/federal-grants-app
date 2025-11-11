@@ -20,6 +20,7 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 interface NavbarProps {}
 
 const platformItems = [

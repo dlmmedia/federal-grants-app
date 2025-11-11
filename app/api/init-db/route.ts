@@ -7,6 +7,7 @@ export const runtime = 'nodejs';
 // Try to import blob storage, but make it optional
 let put: any = null;
 try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const blobModule = require('@vercel/blob');
   put = blobModule.put;
 } catch (e) {
